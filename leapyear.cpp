@@ -3,7 +3,7 @@ int main(){
     int year;
     std::cout<<"Input to check for leap year\n";
     std::cin>>year;
-    if((year%400==0)|(year%4==0&year%100!=0)){
+    if((year%400==0)||(year%4==0&year%100!=0)){
         std::cout<<year<<" is a leap year";
     }
     else{
