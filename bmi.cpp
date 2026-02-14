@@ -3,11 +3,11 @@ class bmi{
     float bmi,m,m2,kg;
     public:
     void input(){
-        std::cout<<"Enter the weight and height\n";
+        std::cout<<"Enter the weight in kg and height in m\n";
         std::cin>>kg>>m;
         m2=m*m;
         bmi=(kg/m2);
-        std::cout<<bmi<<"is the BMI\n";
+        std::cout<<bmi<<" is the BMI\n";
     }
     void calculate(){
         if(bmi<18.5)
