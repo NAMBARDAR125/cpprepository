@@ -6,5 +6,5 @@ int main(){
     x=(p*r*t)/100;
     a=p+x;
     std::cout<<x<<" is the simple interest\n";
-    std::cout<<a<<" is the final amount to be paid after"<<t<<" years";
+    std::cout<<a<<" is the final amount to be paid after "<<t<<" years";
 }
