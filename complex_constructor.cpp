@@ -1,7 +1,3 @@
-/*#include<iostream>
-class time{
-      
-};*/
 #include<iostream>
 using namespace std;
 class complex{
@@ -25,9 +21,8 @@ complex::complex(){
     i=i1+i2;
 }
 int main(){
-    complex c1,c2,c3;
+    complex c1;
     c1.print();
-    c2.print();
-    c3.sum();
+    c1.sum();
     return 0;
 }
